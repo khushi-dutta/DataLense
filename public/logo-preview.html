@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>DataLense Logo Preview</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 2rem;
+      background-color: #f5f5f7;
+    }
+    h1 {
+      color: #1976D2;
+    }
+    .logo-container {
+      margin: 2rem auto;
+      max-width: 500px;
+    }
+    .instructions {
+      background: white;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      margin-top: 2rem;
+      text-align: left;
+    }
+    .logo-variants {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      margin: 2rem 0;
+    }
+    .logo-variant {
+      margin: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <h1>DataLense Logo Preview</h1>
+  
+  <div class="logo-container">
+    <div class="logo-variants">
+      <div class="logo-variant">
+        <h3>Original (Blue background)</h3>
+        <svg width="100" height="100" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <rect width="24" height="24" fill="#1976D2" rx="2" ry="2"/>
+          <path d="M4 9h4v11H4zm12 4h4v7h-4zm-6-9h4v16h-4z" fill="#ffffff"/>
+        </svg>
+      </div>
+      
+      <div class="logo-variant">
+        <h3>White background</h3>
+        <svg width="100" height="100" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <rect width="24" height="24" fill="#ffffff" rx="2" ry="2"/>
+          <path d="M4 9h4v11H4zm12 4h4v7h-4zm-6-9h4v16h-4z" fill="#1976D2"/>
+        </svg>
+      </div>
+    </div>
+  </div>
+  
+  <div class="instructions">
+    <h2>Instructions to create favicon files:</h2>
+    <ol>
+      <li>Use an online tool like <a href="https://favicon.io/favicon-converter/" target="_blank">Favicon.io</a> or <a href="https://realfavicongenerator.net/" target="_blank">Real Favicon Generator</a></li>
+      <li>Upload the SVG file (datalense-logo.svg)</li>
+      <li>Generate the favicon.ico, logo192.png, and logo512.png files</li>
+      <li>Replace the existing files in the public directory</li>
+    </ol>
+    <p><strong>Note:</strong> You can also use graphic design software like Adobe Illustrator, Figma, or Inkscape to make adjustments to the SVG before converting.</p>
+  </div>
+</body>
+</html>

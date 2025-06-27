@@ -1,0 +1,11 @@
+{
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ],
+  "buildCommand": "npm run build",
+  "outputDirectory": "build",
+  "framework": "create-react-app",
+  "env": {
+    "REACT_APP_GEMINI_API_KEY": "dummy_value_replace_in_dashboard"
+  }
+}
